@@ -1,7 +1,3 @@
 flask
 flask-cors
-ccxt
-pandas
-mplfinance
-openai
 gunicorn
