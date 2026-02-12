@@ -1225,6 +1225,5 @@ def charts(filename):
 # 실행
 # =========================
 if __name__ == "__main__":
-    # Cloud Run 호환 포트
-    port = int(os.getenv("PORT", "8080"))
-    app.run(host="0.0.0.0", port=port, debug=False)
+    app.run(host="0.0.0.0", port=8080)
+
